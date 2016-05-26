@@ -1,0 +1,9 @@
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\QNADataSet.dll.config
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\QNADataSet.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\QNADataSet.pdb
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\EntityFramework.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\EntityFramework.xml
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learning Dumps\MVC\QNA\QNADataSet\obj\Debug\QNADataSet.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\obj\Debug\QNADataSet.pdb

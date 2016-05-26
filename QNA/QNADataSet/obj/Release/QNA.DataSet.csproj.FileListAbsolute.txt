@@ -1,0 +1,12 @@
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\QNA.DataSet.dll.config
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\QNA.DataSet.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\QNA.DataSet.pdb
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\EntityFramework.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\EntityFramework.SqlServer.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\QNA.Models.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\QNA.Models.pdb
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\EntityFramework.xml
+D:\Learning Dumps\MVC\QNA\QNADataSet\bin\Release\EntityFramework.SqlServer.xml
+D:\Learning Dumps\MVC\QNA\QNADataSet\obj\Release\QNA.DataSet.csprojResolveAssemblyReference.cache
+D:\Learning Dumps\MVC\QNA\QNADataSet\obj\Release\QNA.DataSet.dll
+D:\Learning Dumps\MVC\QNA\QNADataSet\obj\Release\QNA.DataSet.pdb

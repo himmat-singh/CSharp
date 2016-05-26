@@ -1,0 +1,25 @@
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Question</th>
+        <th>Visits</th>
+        <th>Action
+            <a ng-href="./#question/add">
+        <i title="Add New Question" class="glyphicon glyphicon-plus"></i></a>
+        </th>
+    </tr>
+    <tr ng-repeat="q in questions">
+        <td>{{$index + 1}}</td>
+        <td ng-bind="q.QuestionDetail"></td>
+        <td ng-bind="q.VisitCount"></td>
+        <td>
+            <a ng-href="./#question/edit/{{q.QuestionId}}">
+                <i title="Edit Question" class="glyphicon glyphicon-edit"></i></a>
+            <a ng-href="./#question/delete/{{q.QuestionId}}">
+                <i title="Delete Question" class="glyphicon glyphicon-trash"></i></a>
+            <a ng-href="./#question/view/{{q.QuestionId}}">
+                <i title="View Question" class="glyphicon glyphicon-search"></i></a>
+        </td>
+    </tr>
+</table>

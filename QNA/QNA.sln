@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNA.DataSet", "QNADataSet\QNA.DataSet.csproj", "{8450B953-4DDC-4587-AFA8-433A680DDAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNA.Models", "QNA.Models\QNA.Models.csproj", "{11352C7F-E43B-4159-A143-6FD89A9141EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNA.WebService", "QNA.WebService\QNA.WebService.csproj", "{C7478FB1-2131-43EC-99F8-53A06549E4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNA.WebService.Tests", "QNA.WebService.Tests\QNA.WebService.Tests.csproj", "{4DC0D623-3928-462B-B332-E300B2AEC426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8450B953-4DDC-4587-AFA8-433A680DDAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8450B953-4DDC-4587-AFA8-433A680DDAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8450B953-4DDC-4587-AFA8-433A680DDAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8450B953-4DDC-4587-AFA8-433A680DDAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11352C7F-E43B-4159-A143-6FD89A9141EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11352C7F-E43B-4159-A143-6FD89A9141EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11352C7F-E43B-4159-A143-6FD89A9141EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11352C7F-E43B-4159-A143-6FD89A9141EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7478FB1-2131-43EC-99F8-53A06549E4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7478FB1-2131-43EC-99F8-53A06549E4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7478FB1-2131-43EC-99F8-53A06549E4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7478FB1-2131-43EC-99F8-53A06549E4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC0D623-3928-462B-B332-E300B2AEC426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC0D623-3928-462B-B332-E300B2AEC426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC0D623-3928-462B-B332-E300B2AEC426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC0D623-3928-462B-B332-E300B2AEC426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

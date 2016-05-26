@@ -1,0 +1,38 @@
+<div>
+    <div class="col-md-12">
+        <form ng-submit="question.QuestionId>0?UpdateQuestion():SaveQuestion()">
+            <div class="container-fluid">
+                <fieldset class="form-group">
+                <label for="questiondetail">Question</label>
+                    <textarea class="form-control" id="questiondetail" ng-model="question.QuestionDetail" placeholder="Enter Question here"/>
+                </fieldset>
+                <fieldset class="form-group">
+                <label for="questiontype">Type</label>
+                    <select class="form-control" id="questiontype" ng-model="question.QType" ng-change="OnQTypeChange()">
+                        <option value="0">Multi choice with single answer</option>
+                        <option value="1">Multi choice with multiple answers</option>
+                        <option value="2">Descriptive</option>
+                    </select>
+                </fieldset>
+                <fieldset class="form-group" ng-show="question.QType<2">
+                <label for="optionslimit">Options Limit</label>
+                    <input type="number" class="form-control" id="optionslimit" ng-model="question.MultiChoiceAnswerDisplayLimit" placeholder="Enter Options limit" ng-change="OnDisplayLimitChange()"/>
+                </fieldset>
+                <fieldset class="form-group" ng-show="question.MultiChoiceAnswerDisplayLimit>0">
+                <label for="options">Answer Options</label>
+                    <ul>
+                        <!--<li ng-repeat="i in GetLimitArr(question.MultiChoiceAnswerDisplayLimit)">                            
+                        <textarea ng-model="question.QOptions[i-1].OptionDetail" class="form-control" id="option{{$index + 1}}" placeholder="Enter Answer Option #{{$index +1}} here"/>
+                        </li>--> 
+                        
+                        <li ng-repeat="option in question.QOptions">
+                        <textarea ng-model="option.OptionDetail" class="form-control" placeholder="Enter Answer option #{{$index +1}} here"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-info" ng-click="CanelQuestion()">Cancel</button>
+            </div>            
+        </form>
+    </div>
+</div>
